@@ -1,0 +1,17 @@
+theia@theiadocker-manasvidhawale:/home/project/final_project$ python3 -m unittest test_emotion_detection -v
+test_anger_emotion (test_emotion_detection.TestEmotionDetector.test_anger_emotion)
+Test that 'I am really mad about this' returns anger as dominant emotion. ... ok
+test_disgust_emotion (test_emotion_detection.TestEmotionDetector.test_disgust_emotion)
+Test that 'I feel disgusted just hearing about this' returns disgust. ... ok
+test_fear_emotion (test_emotion_detection.TestEmotionDetector.test_fear_emotion)
+Test that 'I am really afraid that this will happen' returns fear. ... ok
+test_joy_emotion (test_emotion_detection.TestEmotionDetector.test_joy_emotion)
+Test that 'I am glad this happened' returns joy as dominant emotion. ... ok
+test_sadness_emotion (test_emotion_detection.TestEmotionDetector.test_sadness_emotion)
+Test that 'I am so sad about this' returns sadness as dominant emotion. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.049s
+
+OK
+theia@theiadocker-manasvidhawale:/home/project/final_project$
